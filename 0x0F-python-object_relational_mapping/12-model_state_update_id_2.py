@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""A script that changes the name of a State object from the database hbtn_0e_6_usa"""
+"""A script that changes the name of a State object"""
 
 import sys
 from unicodedata import name

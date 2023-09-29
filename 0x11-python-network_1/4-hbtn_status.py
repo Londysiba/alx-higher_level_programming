@@ -7,8 +7,8 @@ if __name__ == '__main__':
 
     url = 'https://intranet.hbtn.io/status'
 
-    response = requests.get(url)
+    content = requests.get(url)
 
     print('Body response:')
-    print('\t- type: {}'.format(type(response.text)))
-    print('\t- response: {}'.format(response.text))
+    print('\t- type: {}'.format(type(content.text)))
+    print('\t- content: {}'.format(content.text))
